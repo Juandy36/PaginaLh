@@ -68,6 +68,8 @@ body {
   outline: 0 !important;
 }
 
+
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -371,6 +373,9 @@ h1, h2, h3, h4, h5, h6,
   color: #22395d;
 }
 
+.fuente{
+  font-family: 'Passion One', sans-serif;
+}
 h1, .h1 {
   font-size: 2.5rem;
 }
@@ -468,7 +473,9 @@ h6, .h6 {
 h1.display-4 {
   color: #333333; /* Cambia esto al gris oscuro que prefieras */
 }
-
+h5.display-90 {
+  color: #333333; /* Cambia esto al gris oscuro que prefieras */
+}
 
 @media (max-width: 1200px) {
   .display-4 {
@@ -2375,6 +2382,7 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #D1A03A;
   border-color: #A6852E;
+  color: black !important;
 }
 
 .btn-primary:hover {
@@ -6148,6 +6156,13 @@ button.bg-primary:focus {
 .bg-secondary {
   background-color: #F3F6FF !important;
 }
+.bg-secondari {
+  background-color: #D2B48C !important;
+}
+p.p{
+  color: #04070b;
+  font-family: arial;
+}
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
@@ -7631,6 +7646,7 @@ button.bg-dark:focus {
 .py-5 {
   padding-top: 3rem !important;
 }
+
 
 .pr-5,
 .px-5 {
@@ -9305,8 +9321,14 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+
+
 .text-primary {
   color: #4E3B31 !important;
+}
+
+.icon-black {
+  color: black !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
