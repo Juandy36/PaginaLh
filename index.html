@@ -15,8 +15,12 @@
    <link rel="icon" href="img\Logo.ico">
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+ 
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -41,21 +45,20 @@
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto py-0">
                 <a href="#home" class="nav-item nav-link active">Inicio</a>
-                <a href="#about" class="nav-item nav-link">Sobre Nosotros</a>
-                <a href="#project" class="nav-item nav-link">Obras</a>
+                <a href="#about" class="nav-item nav-link">Nosotros</a>
+                <a href="#equipo" class="nav-item nav-link">Equipo</a>
             </div>
-            <a href="index.html" class="navbar-brand bg-darkyellow px-4 mx-3 d-none d-lg-block">
-                <h1 class="display-4 text-white text-uppercase m-0">LH</h1>
+             <a href="index.html" class="navbar-brand bg-darkyellow px-4 mx-3 d-none d-lg-block">
+                <h1 class="display-4 text-white fuente text-uppercase m-0">LH</h1>
             </a>
             <div class="navbar-nav mr-auto py-0">
-                <a href="#team" class="nav-item nav-link">Equipo</a>
-                <a href="#services" class="nav-item nav-link">Servicios</a>
+                <a href="#project" class="nav-item nav-link">Obras</a>
+                <a href="#team" class="nav-item nav-link">Team</a>
                 <a href="#contacto" class="nav-item nav-link">Contacto</a>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
-
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5 pb-5" id="home">
@@ -117,7 +120,7 @@
 
 
     <!-- Servicios -->
-    <div class="container-fluid py-5" id="service">
+    <div class="container-fluid py-5" id="equipo">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
                 <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;"></h6>
@@ -127,10 +130,7 @@
                 <div class="col-lg-4 mb-3">
                     <div class="product-item mb-2">
                         <div class="product-img">
-                            <img class="img-fluid" src="img/product-1.jpg" alt="">
-                            <a type="button" class="btn btn-primary" >
-                                <i class="fa fa-2x fa-plus text-white"></i>
-                            </a>
+                            <img class="img-fluid" src="img\bocato.png" style="height: 400px; width: 400px" alt="">
                         </div>
                         <div class="bg-secondary text-center p-4">
                             <h3 class="m-0">Minicargador Cat 236B</h3>
@@ -140,10 +140,7 @@
                 <div class="col-lg-4 mb-3">
                     <div class="product-item mb-2">
                         <div class="product-img">
-                            <img class="img-fluid" src="img/product-2.jpg" alt="">
-                            <a type="button" class="btn btn-primary">
-                                <i class="fa fa-2x fa-plus text-white"></i>
-                            </a>
+                            <img class="img-fluid" src="img\retro2.jpeg" style="height: 400px; width: 400px" alt="">
                         </div>
                         <div class="bg-secondary text-center p-4">
                             <h3 class="m-0">Retroexcavador Case 580
@@ -154,10 +151,7 @@
                 <div class="col-lg-4 mb-3">
                     <div class="product-item mb-2">
                         <div class="product-img">
-                            <img class="img-fluid" src="img/product-3.jpg" alt="">
-                            <a type="button" class="btn btn-primary">
-                                <i class="fa fa-2x fa-plus text-white"></i>
-                            </a>
+                            <img class="img-fluid" src="img\Volqueta.jpeg" style="height: 400px; width: 400px" alt="">
                         </div>
                         <div class="bg-secondary text-center p-4">
                             <h3 class="m-0">Volqueta International
@@ -168,13 +162,13 @@
                 <div class="col-lg-4 mb-3">
                     <div class="product-item mb-2">
                         <div class="product-img">
-                            <img class="img-fluid" src="img/product-3.jpg" alt="">
+                            <img class="img-fluid" style="height: 400px; width: 400px" src="img\mula.jpeg" alt="">
                             <a type="button" class="btn btn-primary" >
                                 <i class="fa fa-2x fa-plus text-white"></i>
                             </a>
                         </div>
                         <div class="bg-secondary text-center p-4">
-                            <h3 class="m-0">Mula Kenworth t800 2013
+                            <h3 class="m-0">Tractocamion Kenworth t800
 
                             </h3>
                         </div>
@@ -194,44 +188,45 @@
         </div>
         <div class="owl-carousel gallery-carousel">
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-1.jpg" alt="">
-                <a class="btn btn-primary" href="img/gallery-1.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
+                <img class="img-fluid w-100 h-100" src="img\Obras.jpg" alt="">
+                <a class="btn btn-primary" href="img\Obras.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-2.jpg" alt="">
-                <a class="btn btn-primary" href="img/gallery-2.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
+                <img class="img-fluid w-100 h-100" src="img\Obras2.png" alt="">
+                <a class="btn btn-primary" href="img\Obras2.png" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-3.jpg" alt="">
-                <a class="btn btn-primary" href="img/gallery-3.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
+                <img class="img-fluid w-100 h-100" src="img\Obras3.jpg" alt="">
+                <a class="btn btn-primary" href="img\Obras3.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-4.jpg" alt="">
-                <a class="btn btn-primary" href="img/gallery-4.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
+                <img class="img-fluid w-100 h-100" src="img\Obras4.jpeg" alt="">
+                <a class="btn btn-primary" href="img\Obras4.jpeg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus"></i>
+                </a> 
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100 h-100" src="img\Obras5.jpg" alt="">
+                <a class="btn btn-primary" href="img\Obras5.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-5.jpg" alt="">
-                <a class="btn btn-primary" href="img/gallery-5.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-6.jpg" alt="">
+                <img class="img-fluid w-100 h-100" src="img/gallery-6.jpg" alt="">
                 <a class="btn btn-primary" href="img/gallery-6.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
+                    <i class="fa fa-2x fa-plus"></i>
                 </a>
             </div>
         </div>
     </div>
-    <!-- Fin -->
+    
+       <!-- Fin -->
 
 
     <!-- Equipo -->
@@ -239,94 +234,76 @@
         <div class="container py-5">
             <div class="section-title position-relative text-center">
                 <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Equipo</h6>
-                <h1 class="font-secondary display-4">Conoce nuestro equipo de trabajo</h1>
+                <h1 class="font-secondary display-4">Conoce nuestro personal</h1>
             </div>
+            
             <div class="row justify-content-lg-start m-0 mb-4 pb-2 mb-sm-0 pb-sm-0">
                 <div class="col-lg-6 p-0">
                     <div class="row m-0">
                         <div class="col-sm-6 p-0 text-center">
                             <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
-                                <h5 class="mb-2">Luis Herson</h5>
-                                <p class="text-muted font-italic mb-2">Fundador</p>
-                                <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem</p>
-                                <div class="position-relative mb-2">
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+                                <h5 class="mb-2 display-90">Ing Director de Proyectos</h5>
+                                <p>Supervisa y coordina todo el proyecto, asegurando que se cumplan los plazos, presupuestos y objetivos técnicos. También gestiona el equipo y es responsable de la comunicación con los clientes.</p>
                             </div>
-                        </div>
-                        <div class="col-sm-6 p-0" style="min-height: 300px;">
-                            <img class="position-absolute w-100 h-100" src="img/team-1.jpg" style="object-fit: cover;">
                         </div>
                     </div>
                 </div>
             </div>
+            
             <div class="row justify-content-lg-end m-0 mb-4 pb-2 mb-sm-0 pb-sm-0">
                 <div class="col-lg-6 p-0">
                     <div class="row m-0">
-                        <div class="col-sm-6 p-0" style="min-height: 300px;">
-                            <img class="position-absolute w-100 h-100" src="img/team-2.jpg" style="object-fit: cover;">
-                        </div>
                         <div class="col-sm-6 p-0 text-center">
                             <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
-                                <h5 class="mb-2">----------</h5>
-                                <p class="text-muted font-italic mb-2">-------</p>
-                                <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem</p>
-                                <div class="position-relative mb-2">
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+                                <h5 class="mb-2 display-90">Ing residente</h5>
+                                <p>Está a cargo de la obra en campo, supervisando diariamente el avance y asegurándose de que todo se ejecute según los planos y especificaciones. Reporta avances al Director de Proyectos y resuelve problemas en el sitio.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
             <div class="row justify-content-lg-start m-0 mb-4 pb-2 mb-sm-0 pb-sm-0">
                 <div class="col-lg-6 p-0">
                     <div class="row m-0">
                         <div class="col-sm-6 p-0 text-center">
                             <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
-                                <h5 class="mb-2">-----</h5>
-                                <p class="text-muted font-italic mb-2">------</p>
-                                <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem</p>
-                                <div class="position-relative mb-2">
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+                                <h5 class="mb-2 display-90">Auxiliar administrativo</h5>
+                                <p>Maneja tareas administrativas como archivo de documentos, control de inventarios, gestión de facturas y apoyo en la logística de recursos y personal para el proyecto.</p>
                             </div>
-                        </div>
-                        <div class="col-sm-6 p-0" style="min-height: 300px;">
-                            <img class="position-absolute w-100 h-100" src="img/team-3.jpg" style="object-fit: cover;">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-lg-end m-0">
+            
+            <div class="row justify-content-lg-end m-0 mb-4 pb-2 mb-sm-0 pb-sm-0">
                 <div class="col-lg-6 p-0">
                     <div class="row m-0">
-                        <div class="col-sm-6 p-0" style="min-height: 300px;">
-                            <img class="position-absolute w-100 h-100" src="img/team-4.jpg" style="object-fit: cover;">
-                        </div>
                         <div class="col-sm-6 p-0 text-center">
                             <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
-                                <h5 class="mb-2">--------</h5>
-                                <p class="text-muted font-italic mb-2">----------</p>
-                                <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem</p>
-                                <div class="position-relative mb-2">
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+                                <h5 class="mb-2 display-90">Topógrafo</h5>
+                                <p>Realiza mediciones de terreno para definir niveles, límites y dimensiones del proyecto, generando mapas y datos precisos que guían el desarrollo de la obra.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            <div class="row justify-content-lg-start m-0 mb-4 pb-2 mb-sm-0 pb-sm-0">
+                <div class="col-lg-6 p-0">
+                    <div class="row m-0">
+                        <div class="col-sm-6 p-0 text-center">
+                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
+                                <h5 class="mb-2 display-90">Operadores</h5>
+                                <p>Operan maquinaria pesada en el sitio, como Retroexcavadoras y Minicargadores, asegurando una manipulación precisa y segura de los equipos para cumplir con las especificaciones del proyecto.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
-    </div>
+    </div>    
     <!-- fin -->
 
     <!-- Pie de pagina -->
